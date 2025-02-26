@@ -48,11 +48,10 @@ plugins:
     allowDirectPlaylistIds: true 
     oauth:
       enabled: true
-      refreshToken: "1//0gBOfoGY0CRtYCgYIARAAGBASNwF-L9IrCwMkJcbDbGckHwIHRl5fHmaAfS7D2m54S61u5WSY--Defu-Yp8UsqFSNHrhJydzH9cE"
+      # refreshToken:
       skipInitialization: true
     clients:
       - MUSIC
-      - ANDROID_VR
       - WEB
       - MWEB
       - WEBEMBEDDED 
@@ -69,8 +68,8 @@ plugins:
       applemusic: true 
       deezer: true 
     spotify:
-      clientId: "a452a60275234406a3b43b84b26785a6"
-      clientSecret: "e0db429aca79461796797af12ec8094a" 
+      # clientId: "a452a60275234406a3b43b84b26785a6"
+      # clientSecret: "e0db429aca79461796797af12ec8094a" 
       countryCode: "US" 
       playlistLoadLimit: 6 
       albumLoadLimit: 6 
